@@ -1,6 +1,6 @@
 #include "Character.h"
 
-// コンストラクタで初期値をセットする
+// コンストラクタでセットする
 Character::Character(std::string characterName, int power)
     : name(characterName), attackPower(power) {
 }
